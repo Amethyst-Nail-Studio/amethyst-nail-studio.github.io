@@ -1,1 +1,21 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Amethyst Nail Studio
+email: jason@jasonhardin.com
+author: Jason Hardin
+description:
+url: "http://www.amethystnailstudio.com" # the base hostname & protocol for your site
+facebook_username:
+instagram_id:
+
+# Build settings
+permalink: pretty
+paginate: 5
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+whitelist:
+  - jekyll-redirect-from
