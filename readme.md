@@ -1,19 +1,15 @@
-# About
-This is the data for my personal website.
+# Example Jekyll site
 
-# License
-The following directories and their contents are Copyright Jason Hardin. You may not reuse anything therein without my permission unless noted otherwise in the post itself when displayed on the blog:
+You're looking at a simple Jekyll site built to show folks how to use Sass with Jekyll. It's open sourced under the MIT license and can be download from [the GitHub project](https://github.com/mdo/jekyll-example).
 
-_posts/
-img/
+### Usage
 
-The img/ directory has specific images from flickr that others have created. These files are:
-img/rpg.jpg [Daniele Muscetta](https://www.flickr.com/photos/dani3l3/)
-img/bbq.jpg [Wally Gobetz](https://www.flickr.com/photos/wallyg/)
-img/logitechg13 [Logitech](http://www.logitech.com/)
+Read the [Using Sass with Jekyll](http://markdotto.com/2014/09/25/sass-and-jekyll/) post.
 
-The media/logos directory contains logos from various companies that produce the games I play and these are obviously copyright to those companies.
+### Support
 
-These images are licensed based on the license the author provided on flickr. Usually creative commons
+**No support is provided with this project.** It is solely meant as a one-time download to accompany the aforementioned blog post.
 
-All other directories and files are MIT Licensed.
+### License
+
+Released under MIT by @mdo.

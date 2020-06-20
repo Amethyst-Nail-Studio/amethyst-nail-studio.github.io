@@ -1,13 +1,21 @@
-# Site settings
-title: Amethyst Nail Studio
-email: jason@jasonhardin.com
-author: Jason Hardin
-description:
-url: "http://www.amethystnailstudio.com" # the base hostname & protocol for your site
-facebook_username:
-instagram_id:
+# Syntax highlighting
+highlighter:         pygments
 
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Jekyll Example
+tagline:             Basic example of a Jekyll site with Sass enabled.
+url:                 http://mdo.github.io/jekyll-example
+baseurl:             /jekyll-example/
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
 sass:
-  style: compressed
-
-theme: jekyll-theme-cayman
+  sass_dir:          _scss
+  style:            :compressed
