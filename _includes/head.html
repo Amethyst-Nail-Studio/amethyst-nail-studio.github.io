@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="/img/favicon.ico" />
+  <link rel="shortcut icon" href="/imgs/favicon.ico" />
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -12,12 +12,7 @@
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
 
-  <link rel="stylesheet" href="{{ "/css/custom.min.css" | prepend: site.baseurl }}">
-
-  <!-- Google+ author -->
-  {% if site.googleplus_username %}
-  <link rel="author" href="https://plus.google.com/+{{ site.googleplus_username }}" />
-  {% endif %}
+<link rel="stylesheet" href="{{ site.baseurl }}css/styles.css">
 
   <!-- Custom Fonts -->
   <link href="http://cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />

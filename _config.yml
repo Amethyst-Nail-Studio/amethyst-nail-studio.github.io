@@ -7,15 +7,7 @@ url: "http://www.amethystnailstudio.com" # the base hostname & protocol for your
 facebook_username:
 instagram_id:
 
-# Build settings
-permalink: pretty
-paginate: 5
+sass:
+  style: compressed
 
-gems:
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-whitelist:
-  - jekyll-redirect-from
+theme: jekyll-theme-cayman
