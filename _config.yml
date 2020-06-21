@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://amethystnailstudio.com" # the base hostname & protocol for your site
 
 facebook_username: Amethyst-Nail-Studio-102458987980224
-instagram_username: sarah.w.hardin
+instagram_username: amethystnailstudio
 
 # Build settings
 markdown: kramdown
