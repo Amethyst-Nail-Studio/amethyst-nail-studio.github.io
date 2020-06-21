@@ -6,6 +6,7 @@ html {
 
 body {
   @include sans-serif-font;
+  font-size: 110%;
 }
 
 hr {
@@ -38,7 +39,6 @@ h6 {
 }
 
 p {
-  font-size: 1.3em;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -183,6 +183,7 @@ header {
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 0;
+        font-size: 5em;
       }
 
       hr {
@@ -192,7 +193,7 @@ header {
       p {
         font-weight: 300;
         color: rgba(white, .7);
-        font-size: 16px;
+        font-size: 1.3em;
         margin-bottom: 50px;
       }
     }
@@ -214,7 +215,7 @@ header {
         margin-right: auto;
 
         p {
-          font-size: 18px;
+          font-size: 1.3em;
           max-width: 80%;
           margin-left: auto;
           margin-right: auto;
@@ -275,11 +276,11 @@ header {
       .project-category {
         text-transform: uppercase;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 1.2em;
       }
 
       .project-name {
-        font-size: 18px;
+        font-size: 1.4em;
       }
     }
   }
@@ -293,11 +294,11 @@ header {
     .portfolio-box-caption {
       .portfolio-box-caption-content {
         .project-category {
-          font-size: 16px;
+          font-size: 1.1em;
         }
 
         .project-name {
-          font-size: 22px;
+          font-size: 1.3em;
         }
       }
     }
