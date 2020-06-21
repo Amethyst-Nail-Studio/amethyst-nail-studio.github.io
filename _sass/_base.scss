@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-siz: 3em;
+  font-size: 3em;
 }
 
 h4 {
@@ -98,7 +98,7 @@ aside {
   .navbar-header .navbar-brand {
     color: $theme-primary;
     @include serif-font;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 3em;
     float: left;
     height: 60px;
@@ -115,7 +115,7 @@ aside {
       > a:focus,
       > a {
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 600;
         font-size: 1.3em;
         color: $theme-dark;
 
@@ -204,7 +204,7 @@ header {
 
     .header-content-inner {
       h1 {
-        font-weight: 700;
+        font-weight: 500;
         margin-top: 0;
         margin-bottom: 0;
         font-size: 8em;
@@ -215,9 +215,9 @@ header {
       }
 
       p {
-        font-weight: 300;
+        font-weight: 500;
         color: rgba(white, .7);
-        font-size: 1.6em;
+        font-size: 1.8em;
         margin-bottom: 50px;
       }
     }
@@ -239,7 +239,6 @@ header {
         margin-right: auto;
 
         p {
-          font-size: 1.3em;
           max-width: 80%;
           margin-left: auto;
           margin-right: auto;
@@ -300,11 +299,11 @@ header {
       .project-category {
         text-transform: uppercase;
         font-weight: 600;
-        font-size: 1.2em;
+        font-size: 1.4em;
       }
 
       .project-name {
-        font-size: 1.4em;
+        font-size: 1.2em;
       }
     }
   }
@@ -318,11 +317,11 @@ header {
     .portfolio-box-caption {
       .portfolio-box-caption-content {
         .project-category {
-          font-size: 1.1em;
+          font-size: 1.3em;
         }
 
         .project-name {
-          font-size: 1.3em;
+          font-size: 1.1em;
         }
       }
     }
@@ -358,19 +357,14 @@ header {
   @include sans-serif-font;
   border: none;
   border-radius: 300px;
-  font-weight: 700;
-  font-size: 1em;
+  font-weight: 600;
+  font-size: 1.1em;
 }
 
 .btn-xl {
   padding: 15px 30px;
 }
-// Contact
 
-#contact .fas {
-  color: $theme-dark;
-  font-size: 4em;
-}
 // Extras
 // -- Highlight Color Customization
 
