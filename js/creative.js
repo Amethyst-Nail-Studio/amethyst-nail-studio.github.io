@@ -28,10 +28,17 @@
     });
 
     // Fit Text Plugin for Main Header
-    $("h1").fitText(
+    $(".navbrand").fitText(
         1.2, {
             minFontSize: '35px',
             maxFontSize: '65px'
+        }
+    );
+
+    $("h1").fitText(
+        1.2, {
+            minFontSize: '1.5em',
+            maxFontSize: '4em'
         }
     );
 
