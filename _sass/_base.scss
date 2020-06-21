@@ -109,6 +109,10 @@ aside {
     &:hover {
       color: darken($theme-primary, 20%);
     }
+    
+    @media (max-width: 768px) {
+      font-size: 2em;
+    }
   }
 
   .nav {
@@ -153,8 +157,6 @@ aside {
 
     .nav > li > a,
     .nav > li > a:focus {
-      color: rgba(white, .7);
-
       &:hover {
         color: white;
       }
