@@ -38,19 +38,22 @@ h6 {
   @include serif-font;
 }
 
-h2{
-  font-size:6em;
+h2 {
+  font-size: 6em;
 }
-h3{
+
+h3 {
   font-siz: 4em;
 }
 
 h4 {
   font-size: 3em;
 }
+
 h5 {
   font-size: 2.5em;
 }
+
 h6 {
   font-size: 2em;
 }
@@ -97,6 +100,9 @@ aside {
     @include serif-font;
     font-weight: 700;
     font-size: 3em;
+    float: left;
+    height: 60px;
+    line-height: 35px;
 
     &:focus,
     &:hover {
@@ -106,8 +112,8 @@ aside {
 
   .nav {
     > li {
-      > a,
-      > a:focus {
+      > a:focus,
+      > a {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 1.3em;
@@ -119,8 +125,8 @@ aside {
       }
 
       &.active {
-        > a,
-        > a:focus {
+        > a:focus,
+        > a {
           color: $theme-primary !important;
           background-color: transparent;
 
