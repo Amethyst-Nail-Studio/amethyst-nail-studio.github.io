@@ -265,7 +265,7 @@ header {
 
       .project-category,
       .project-name {
-        @include san-serif-font;
+        @include sans-serif-font;
         padding: 0 15px;
       }
 
@@ -327,7 +327,7 @@ header {
 }
 
 .btn {
-  @include san-serif-font;
+  @include sans-serif-font;
   border: none;
   border-radius: 300px;
   font-weight: 700;
