@@ -68,6 +68,7 @@ aside {
   padding: 0;
 }
 // Navigation
+
 .navbar-default {
   background-color: white;
   border-color: rgba($theme-dark, .5);
@@ -87,8 +88,8 @@ aside {
 
   .nav {
     > li {
-      > a:focus,
-      > a {
+      > a,
+      > a:focus {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 13px;
@@ -100,8 +101,8 @@ aside {
       }
 
       &.active {
-        > a:focus,
-        > a {
+        > a,
+        > a:focus {
           color: $theme-primary !important;
           background-color: transparent;
 
@@ -160,6 +161,7 @@ aside {
   }
 }
 // Homepage Header
+
 header {
   position: relative;
   width: 100%;
@@ -222,6 +224,7 @@ header {
   }
 }
 // Sections
+
 .section-heading {
   margin-top: 0;
 }
@@ -369,4 +372,11 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: $theme-dark;
+}
+
+.profilepic {
+  border-radius: 140px;
+  height: 240px;
+  width: 240px;
+  display: block;
 }
